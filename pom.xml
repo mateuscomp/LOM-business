@@ -4,10 +4,10 @@
 
 	<groupId>com.nanuvem.lom</groupId>
 	<artifactId>business</artifactId>
-	<version>0.0.8</version>
+	<version>0.0.9</version>
 	<packaging>jar</packaging>
 
-	<name>kernel</name>
+	<name>business</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>

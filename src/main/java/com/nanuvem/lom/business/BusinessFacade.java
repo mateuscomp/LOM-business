@@ -103,16 +103,16 @@ public class BusinessFacade implements Facade {
 		return entityService.findInstancesByEntityId(entityId);
 	}
 
-	@Override
 	public List<Entity> findEntityByNameOfPropertiesTypeAndByValueOfProperties(
 			String fullnameEntityType,
 			Map<String, String> nameByPropertiesTypesAndValuesOfProperties) {
 
 		return entityService
-				.findEntityByNameOfPropertiesTypeAndByValueOfProperties(fullnameEntityType, nameByPropertiesTypesAndValuesOfProperties);
+				.findEntityByNameOfPropertiesTypeAndByValueOfProperties(
+						fullnameEntityType,
+						nameByPropertiesTypesAndValuesOfProperties);
 	}
 
-	@Override
 	public DaoFactory getDaoFactory() {
 		return this.daoFactory;
 	}
