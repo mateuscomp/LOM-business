@@ -157,10 +157,10 @@ public class EntityTypeServiceImpl {
 
 	}
 
-	public EntityType update(EntityType entity) {
-		this.validateEntityOnUpdate(entity);
-		this.validateEntity(entity);
-		EntityType updatedEntity = this.dao.update(entity);
+	public EntityType update(EntityType entityType) {
+		this.validateEntityOnUpdate(entityType);
+		this.validateEntity(entityType);
+		EntityType updatedEntity = this.dao.update(entityType);
 		return updatedEntity;
 	}
 
